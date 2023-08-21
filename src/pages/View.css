@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Oswald&family=Playfair+Display&display=swap");
+.mainDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    border: 5px solid black;
+    padding-bottom: 30px;
+}
+header{
+    height: 60px;
+    font-family: "Playfair";
+    font-size: 25px;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 80px;
+    margin-bottom: 25px;
+}
+strong{
+    font-family: "Playfair";
+    font-weight: 1000;
+}
+.back_btn{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+.back_btn:hover{
+    background-color: white;
+    color: black;
+}

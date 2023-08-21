@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50vmax;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 30px;
+}
+.form > div{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.form > div > label{
+    font-size: 20px;
+}
+.form > div > input{
+    width: 30vmax;
+}
+form>:nth-child(4)>input{
+    justify-content: center;
+    width: 100px;
+    height: 30px; 
+    border: 1px solid rgb(36, 247, 36);
+    border-radius: 5px;
+    background-color: rgb(36, 247, 36);
+}
+
+form>:nth-child(4) :hover{
+    background-color: #74b4f3;
+    border: 2px solid #74b4f3;
+    border-radius: 5px;
+
+    
+}

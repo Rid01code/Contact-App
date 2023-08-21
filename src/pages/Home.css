@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Oswald&display=swap");
+
+.homeDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.styledTable{
+    display: flex;
+    flex-direction: column;
+background: #e0e0e0;
+box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+thead{
+    background-color: #74b4f3;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.theadTr{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+th{
+    width: 150px;
+    text-align: center;
+    font-weight: 1000;
+    font-family:"Oswald";
+}
+.tbodyTr{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.tbodyTr >th{
+    border-bottom: 1px solid black;
+}
+td{
+    width: 150px;
+    height: 35px;
+    overflow-wrap: break-word;
+    border-bottom: 1px solid black;
+}
+.btn{
+    border-radius: 5px;
+}
+.updt_btn{
+    background-color: blue;
+    border-color: blue;
+}
+.updt_btn:hover{
+    color: blue;
+    background-color: white;
+    border-color: white;
+}
+
+.view_btn{
+    background-color: rgb(40, 240, 40);
+    border-color: rgb(40, 240, 40);
+}
+.view_btn:hover{
+    color: rgb(40, 240, 40);
+    background-color: white;
+    border-color: white;
+}
+.dlt_btn{
+    background-color: red;
+    border-color: red;
+}
+.dlt_btn:hover{
+    color: red;
+    background-color: white;
+    border-color: white;
+}
