@@ -5,10 +5,12 @@
     background-color: white;
     padding : 0px 10px
 }
-.Logo{
-    font-size: 20px;
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: bold;
-    color: rgb(81, 81, 245);
+    gap: 5px;
 }
 .Header-right{
     display: flex;
@@ -49,4 +51,8 @@
     height: 40px;
     width: 100px;
     border-radius: 3px;
+}
+.Contact-App{
+    width: 30px;
+    height: 30px;
 }

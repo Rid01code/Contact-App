@@ -1,5 +1,6 @@
 import React , {useState , useEffect} from 'react';
-import { Link , useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
+import Contact from "../assets/contact.jpg"
 import "./Header.css";
 
 const Header = () => {
@@ -14,10 +15,12 @@ const Header = () => {
         {setActiveTab('About')}
     })
     return (
-    <div className='Header'>
-        <p className='Contact App'>Logo</p>
-
-        <div className='Header-right'>
+        <div className='Header'>
+            <div className='logo'>
+                <img src={Contact} className='Contact-App' />
+                <p>Contact App</p>
+            </div>
+            <div className='Header-right'>
             <Link to="/">
                 <p className={`${activeTab === "Home" ? "active" : ""}`} onClick={()=>setActiveTab("Home")}>
                     Home

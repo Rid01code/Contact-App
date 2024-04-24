@@ -18,7 +18,6 @@ const View = () => {
     })
   }, [id]);
 
-  console.log("user", user)
 
   return (
     <div className='mainDiv'>

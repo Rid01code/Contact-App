@@ -90,7 +90,7 @@ setState({...state , [name] : value})};
 
         <div>
           <label htmlFor="contact" className="form__label">Contact</label>
-          <input type="number" name='contact' value={contact || ""} placeholder="Number" className="contact_input" onChange={handleInputChange}/>
+          <input type="tel" name='contact' value={contact || ""} placeholder="Number" className="contact_input" onChange={handleInputChange}/>
         </div>
 
         <div>
