@@ -13,11 +13,11 @@ const Header = () => {
         {setActiveTab("AddContact")}
         else if(location.pathname === "/about")
         {setActiveTab('About')}
-    })
+    },[location])
     return (
         <div className='Header'>
             <div className='logo'>
-                <img src={Contact} className='Contact-App' />
+                <img src={Contact} className='Contact-App' alt=''/>
                 <p>Contact App</p>
             </div>
             <div className='Header-right'>
